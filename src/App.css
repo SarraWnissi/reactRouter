@@ -1,0 +1,200 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: hsl(0, 50%, 92%);
+  padding: 20px;
+}
+
+/* Navigation.css */
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  margin: 0 auto;
+  z-index: 99999999;
+}
+
+.navigation h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navigation .action {
+  display: flex;
+  align-items: center;
+}
+
+.navigation .action svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  fill: white;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  width: 20px;
+}
+.navigation .action .btn-prim {
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* MoviesList.css */
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.movie-card {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.movie-card h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #000;
+}
+
+.movie-card p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 10px 0;
+  color: #333;
+}
+
+.carousel-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.carousel-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.slick-slide {
+  padding: 20px;
+}
+.watch-button {
+  padding: 10px 20px;
+  background-color: #f50057;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.watch-button:hover {
+  background-color: #c51162;
+}
+.modal-bg {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 0, 0, 0.534);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999999;
+}
+.modal {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+.modal input {
+  width: 100%;
+}
+.search-inp {
+  background-color: rgba(37, 37, 37, 0.797);
+  z-index: 99999999;
+  padding: 8px 12px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  color: white;
+  position: absolute;
+  right: 300px;
+}
+.filter-rate {
+  width: 60%;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.filter-rate input {
+  padding: 20px;
+}
+.filter-rate .btn-prim {
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.mt {
+  margin-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.card-content .btn-prim {
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: bold;
+}
